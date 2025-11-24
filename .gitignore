@@ -9,3 +9,5 @@
 *.pdf
 *.pyc
 *.synctex.gz
+*.nav
+*.snm
