@@ -33,7 +33,7 @@
 \newtheorem{izrek}{Izrek}
 }
 % Nastavimo koliko prostora izpustimo pod napisom nad sliko ali tabelo.
-\setlength{\belowcaptionskip}{2mm}
+\setlength{\belowcaptionskip}{2mm}  
 % Nastavimo odmik prve vrstice v odstavku na 0mm.
 \setlength{\parindent}{0mm}
 
@@ -148,7 +148,7 @@ reke.
 Magični kvadrati so fascinirali človeštvo skozi vso zgodovino. Najdemo jih
 v številnih kulturah, npr.\ v Egiptu in Indiji, vklesane v kamen ali
 kovino, uporabljane kot talismane za dolgo življensko dobo in v
-izogib boleznim.
+izogib boleznim. % .\ tako naredimo da ni velikega presledka za piko
 
 \pojem{Kubera-Kolam} je talna poslikava, ki se uporablja v Indiji, in je v
 obliki magičnega kvadrata reda 3. Ta je v bistvu enak kot kvadrat
@@ -265,7 +265,7 @@ in zato kvadrat ni normalen.
    števil (glej \eqref{eq:numbers} na strani \pageref{eq:numbers}) enaka
    $1+2+3+\dots+n^2=\sum_{k=1}^{n^2}k=\frac{1}{2}n^2(n^2+1)$. Ker imamo
    v kvadratu $n$ vrstic z enako vsoto, je vsota števil v eni vrstici
-   enaka številu $\m(n)$. % sklica: eq:numbers, eq:numbers
+   enaka številu $\m(n)$. % poleg ref sta še eqref in pageref!!!!
 \end{dokaz}
 % Konec dokaza
 
@@ -319,7 +319,7 @@ iz kvadrata Lo Shu z zrcaljenjem preko sredinske vodoravne črte.
       število kvadratov & 1 & 0 & 1 & 880 & 275305224 & \((1,7745 \pm 0,0016)10^{19}\) \\ \bottomrule
    \end{tabular}
    \label{table:stevila}
-\end{table}
+\end{table} % ta tabela uporablja paket booktabs!!
 % Konec tabele
 
 Vse normalne magične kvadrate reda 4 je oštevilčil Frénicle de Bessy
@@ -375,7 +375,7 @@ magični kvadrati redov 5, 6 in 9.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
+\newpage % dobro je dati newpage
 
 % Tu vstavite bibliografijo
 \bibliographystyle{siam}
